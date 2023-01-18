@@ -1,11 +1,15 @@
+import HomeNavbar from '../partials/navbars/HomeNavbar';
+
 function Home() {
   return (
-    <button
-      className="bg text-theme-black-100 bg-theme-orange-100 m-16 active:bg-pink-600 font-bold text-base px-8 py-3 rounded shadow-md hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-      type="button"
-    >
-      Home
-    </button>
+    <main className="w-full h-full flex flex-col items-center justify-center">
+      <HomeNavbar />
+      <div className="w-3/4 mt-8">
+        <span className="text-2xl font-medium">
+          Solar Panel Return on Investment Calculator.
+        </span>
+      </div>
+    </main>
   );
 }
 
