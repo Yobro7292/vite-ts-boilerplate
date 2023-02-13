@@ -6,7 +6,7 @@ function Home() {
       <HomeNavbar />
       <div className="w-3/4 mt-8">
         <span className="text-2xl font-medium">
-          Solar Panel Return on Investment Calculator.
+          Example title of the page.
         </span>
       </div>
     </main>
